@@ -14,6 +14,11 @@
 		0428263A2C3C6AD900B578A9 /* AirlineRedesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042826392C3C6AD900B578A9 /* AirlineRedesignTests.swift */; };
 		042826442C3C6AD900B578A9 /* AirlineRedesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042826432C3C6AD900B578A9 /* AirlineRedesignUITests.swift */; };
 		042826462C3C6AD900B578A9 /* AirlineRedesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042826452C3C6AD900B578A9 /* AirlineRedesignUITestsLaunchTests.swift */; };
+		04720F172C3D0C3400553B11 /* HeroOfferTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04720F162C3D0C3400553B11 /* HeroOfferTemplate.swift */; };
+		04720F192C3D149A00553B11 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04720F182C3D149A00553B11 /* Models.swift */; };
+		04720F1B2C3D956D00553B11 /* OffersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04720F1A2C3D956D00553B11 /* OffersVM.swift */; };
+		04720F1D2C3DAFA800553B11 /* tabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04720F1C2C3DAFA800553B11 /* tabview.swift */; };
+		04720F1F2C3DDF2300553B11 /* PickFlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04720F1E2C3DDF2300553B11 /* PickFlightDetailsView.swift */; };
 		04AAEAD62C3C7B9200FCBACA /* SelectRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAEAD52C3C7B9200FCBACA /* SelectRouteView.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +50,11 @@
 		0428263F2C3C6AD900B578A9 /* AirlineRedesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirlineRedesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042826432C3C6AD900B578A9 /* AirlineRedesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineRedesignUITests.swift; sourceTree = "<group>"; };
 		042826452C3C6AD900B578A9 /* AirlineRedesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineRedesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04720F162C3D0C3400553B11 /* HeroOfferTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroOfferTemplate.swift; sourceTree = "<group>"; };
+		04720F182C3D149A00553B11 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		04720F1A2C3D956D00553B11 /* OffersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersVM.swift; sourceTree = "<group>"; };
+		04720F1C2C3DAFA800553B11 /* tabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabview.swift; sourceTree = "<group>"; };
+		04720F1E2C3DDF2300553B11 /* PickFlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickFlightDetailsView.swift; sourceTree = "<group>"; };
 		04AAEAD52C3C7B9200FCBACA /* SelectRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,8 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				042826282C3C6AD700B578A9 /* AirlineRedesignApp.swift */,
+				04720F1E2C3DDF2300553B11 /* PickFlightDetailsView.swift */,
 				0428262A2C3C6AD700B578A9 /* ContentView.swift */,
 				04AAEAD52C3C7B9200FCBACA /* SelectRouteView.swift */,
+				04720F162C3D0C3400553B11 /* HeroOfferTemplate.swift */,
+				04720F1C2C3DAFA800553B11 /* tabview.swift */,
+				04720F1A2C3D956D00553B11 /* OffersVM.swift */,
+				04720F182C3D149A00553B11 /* Models.swift */,
 				0428262C2C3C6AD900B578A9 /* Assets.xcassets */,
 				0428262E2C3C6AD900B578A9 /* Preview Content */,
 			);
@@ -261,8 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0428262B2C3C6AD700B578A9 /* ContentView.swift in Sources */,
+				04720F1B2C3D956D00553B11 /* OffersVM.swift in Sources */,
 				042826292C3C6AD700B578A9 /* AirlineRedesignApp.swift in Sources */,
+				04720F172C3D0C3400553B11 /* HeroOfferTemplate.swift in Sources */,
+				04720F1F2C3DDF2300553B11 /* PickFlightDetailsView.swift in Sources */,
+				04720F1D2C3DAFA800553B11 /* tabview.swift in Sources */,
 				04AAEAD62C3C7B9200FCBACA /* SelectRouteView.swift in Sources */,
+				04720F192C3D149A00553B11 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +461,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = loganpetree.AirlineRedesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +494,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = loganpetree.AirlineRedesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

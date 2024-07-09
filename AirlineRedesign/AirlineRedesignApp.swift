@@ -11,7 +11,7 @@ import SwiftUI
 struct AirlineRedesignApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SelectRouteView()
             
         }
     }
