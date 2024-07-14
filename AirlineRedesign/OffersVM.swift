@@ -27,7 +27,6 @@ class AirportsVM: ObservableObject {
         Airport(code: "AUS", city: "Austin", state: "TX"),
         Airport(code: "BWI", city: "Baltimore/Washington", state: "MD"),
         Airport(code: "BZE", city: "Belize City", state: "Belize"),
-        Airport(code: "BHM", city: "Birmingham", state: "AL"),
         Airport(code: "BOI", city: "Boise", state: "ID"),
         Airport(code: "BOS", city: "Boston (Logan)", state: "MA"),
         Airport(code: "BZN", city: "Bozeman/Yellowstone", state: "MT"),
@@ -140,4 +139,6 @@ class AirportsVM: ObservableObject {
         Airport(code: "PBI", city: "West Palm Beach", state: "FL"),
         Airport(code: "ICT", city: "Wichita", state: "KS")
     ]
+    
+    
 }

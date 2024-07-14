@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct FlightSelectionCard: View {
+struct SearchResultCard: View {
     
     var flight: Datum
     
@@ -123,7 +123,7 @@ struct FlightSelectionCard: View {
 
 #Preview {
     List{
-        FlightSelectionCard(flight: Datum(
+        SearchResultCard(flight: Datum(
             type: "flight-offer",
             id: "1",
             source: "GDS",
